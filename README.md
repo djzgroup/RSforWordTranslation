@@ -15,17 +15,17 @@ From the results, we notice that the performances of close languages, such as En
 
 Method 	| EN-IT | EN-DE | EN-FI | EN-ES
 -|-|-|-|-
-Mikolov et al. (2013)\cite{mikolov2013exploiting} (*) | 34.93 | 35.00 | 25.91 | 27.73
-Faruqui et al. (2014)\cite{faruqui2014improving} (*) | 38.40 | 37.13 | 27.60 | 26.80
-Shigeto et al. (2015)\cite{shigeto2015ridge} (*) | 41.53 | 43.07 | 31.04 | 33.73
-Dinu et al. (2014)\cite{dinu2014improving} (*) | 38.53 | 38.93 | 29.14 | 30.40
-Lazaridou et al. (2015)\cite{Lazaridou2015Hubness} (*) | 40.2 | - | - | -
-Xing et al. (2015)\cite{xing2015normalized} (*) | 36.87 | 41.27 | 28.23 | 31.20
-Artetxe et al. (2016)\cite{artetxe2016learning} (*) | 39.27  | 41.87 | 30.62 |  31.40
-Zhang et al. (2016)\cite{zhang2016ten} (*) | 36.73 | 40.80 | 28.16 | 31.07		
-Smith et al. (2017)\cite{smith2017offline} (*) | 44.53 | 43.33 | 29.42 | 35.13
-Artetxe et al. (2018)\cite{artetxe2018generalizing} (*) | 45.27 | 44.13 | 32.94 | 36.53
-Lample et al. (2018)\cite{conneau2017word} | 77.80 | 74.12 |  43.96 | 81.73 
+Mikolov et al. (2013) [1] (*) | 34.93 | 35.00 | 25.91 | 27.73
+Faruqui et al. (2014) [2] (*) | 38.40 | 37.13 | 27.60 | 26.80
+Shigeto et al. (2015) [3] (*) | 41.53 | 43.07 | 31.04 | 33.73
+Dinu et al. (2014) [4] (*) | 38.53 | 38.93 | 29.14 | 30.40
+Lazaridou et al. (2015) [5] (*) | 40.2 | - | - | -
+Xing et al. (2015) [6] (*) | 36.87 | 41.27 | 28.23 | 31.20
+Artetxe et al. (2016) [7] (*) | 39.27  | 41.87 | 30.62 |  31.40
+Zhang et al. (2016) [8] (*) | 36.73 | 40.80 | 28.16 | 31.07		
+Smith et al. (2017) [9] (*) | 44.53 | 43.33 | 29.42 | 35.13
+Artetxe et al. (2018) [10] (*) | 45.27 | 44.13 | 32.94 | 36.53
+Lample et al. (2018) [11] | 77.80 | 74.12 |  43.96 | 81.73 
 Our | 78.00 | 73.53 | 47.53 | 81.64 
  
 ## Visualization
@@ -34,12 +34,17 @@ This visualization shows the process of how RS works from an experimental view a
 ![](https://github.com/djzgroup/RSforWordTranslation/blob/master/visualizaition.jpg)
 
 ## References
-- [1] Gang Yu and Junsong Yuan. Fast action proposals for human action detection and search. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 1302-1311, 2015.
-- [2] Philippe Weinzaepfel, Zaid Harchaoui, and Cordelia Schmid. Learning to track for spatio-temporal action localization. In Proceedings of the IEEE international conference on computer vision, pages 3164-3172, 2015.
-- [3] Xiaojiang Peng and Cordelia Schmid. Multi-region two-stream r-cnn for action detection. In European Conference on Computer Vision, pages 744-759. Springer, 2016.
-- [4] Suman Saha, Gurkirt Singh, Michael Sapienza, Philip HS Torr, and Fabio Cuzzolin. Deep learning for detecting multiple space-time action tubes in videos. British Machine Vision Conference, 2016.
-- [5] Jiawei He, Mostafa S Ibrahim, Zhiwei Deng, and Greg Mori. Generic tubelet proposals for action localization. arXiv preprint arXiv:1705.10861, 2017.
-- [6] gurkirt Singh, Suman Saha, Michael Sapienza, Philip Torr, and Fabio Cuzzolin. Online real-time multiple spatiotemporal action localisation and prediction. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 3637-3646, 2017.
+- [1] Mikolov T, Le Q V, Sutskever I. Exploiting similarities among languages for machine translation[J]. arXiv preprint arXiv:1309.4168, 2013.
+- [2] Faruqui M, Dyer C. Improving vector space word representations using multilingual correlation[C]//Proceedings of the 14th Conference of the European Chapter of the Association for Computational Linguistics. 2014: 462-471.
+- [3] Shigeto Y, Suzuki I, Hara K, et al. Ridge regression, hubness, and zero-shot learning[C]//Joint European Conference on Machine Learning and Knowledge Discovery in Databases. Springer, Cham, 2015: 135-151.
+- [4] Dinu G, Lazaridou A, Baroni M. Improving zero-shot learning by mitigating the hubness problem[J]. arXiv preprint arXiv:1412.6568, 2014.
+- [5] Lazaridou A, Dinu G, Baroni M. Hubness and pollution: Delving into cross-space mapping for zero-shot learning[C]//Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing (Volume 1: Long Papers). 2015, 1: 270-280.
+- [6] Xing C, Wang D, Liu C, et al. Normalized word embedding and orthogonal transform for bilingual word translation[C]//Proceedings of the 2015 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies. 2015: 1006-1011.
+- [7] Artetxe M, Labaka G, Agirre E. Learning principled bilingual mappings of word embeddings while preserving monolingual invariance[C]//Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing. 2016: 2289-2294.
+- [8] Zhang Y, Gaddy D, Barzilay R, et al. Ten pairs to tag-Multilingual POS tagging via coarse mapping between embeddings[C]. Association for Computational Linguistics, 2016.
+- [9] Smith S L, Turban D H P, Hamblin S, et al. Offline bilingual word vectors, orthogonal transformations and the inverted softmax[J]. arXiv preprint arXiv:1702.03859, 2017.
+- [10] Artetxe M, Labaka G, Agirre E. Generalizing and improving bilingual word embedding mappings with a multi-step framework of linear transformations[C]//Thirty-Second AAAI Conference on Artificial Intelligence. 2018.
+- [11] Lample G, Conneau A, Denoyer L, et al. Word translation without parallel data[J]. 2018.
 
 ## Acknowledgment
 This work was supported in part by the National Natural Science Foundation of China under Grant 61702350 and Grant 61472289 and in part by the Open Project Program of the State Key Laboratory of Digital Manufacturing Equipment and Technology, HUST, under Grant DMETKF2017016.
