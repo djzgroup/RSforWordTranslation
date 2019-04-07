@@ -31,7 +31,7 @@ Our | 78.00 | 73.53 | 47.53 | 81.64
 ## Visualization
 we visualize three translation scenarios by projecting mapped bilingual word embeddings from 300 dimensions to 2D at prediction time. 
 This visualization shows the process of how RS works from an experimental view and fully demonstrates that RS promotes the confidence of more appropriate target translations without considering whether it is a hub. The word embeddings are projected from 300-dim to the 2D plane using PCA. The five vectors in Spanish (black) are the 5 nearest neighbors of the source query, and the values below the red word labels are the distance from the query. Another five vectors in English (red) are the 5 nearest neighbors of the target candidate that is in the best-k list, and the values below the black labels are the distance from the candidate. In addition, the table in the top right corner reports the similarity of the query and the back-translation value is shown with red labels.
-![](https://github.com/djzgroup/RSforWordTranslation/blob/master/visualizaition.jpg)
+<img src="https://github.com/djzgroup/RSforWordTranslation/blob/master/visualizaition.jpg" width="800">
 
 ## References
 - [1] Mikolov T, Le Q V, Sutskever I. Exploiting similarities among languages for machine translation[J]. arXiv preprint arXiv:1309.4168, 2013.
