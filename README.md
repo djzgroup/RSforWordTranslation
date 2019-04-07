@@ -10,5 +10,10 @@ Compared with a precision@1 of 47.00% from English to Finnish, our model obtains
 - Our model significantly reduces model training time, which only takes a few minutes with a single CPU and is approximately 52X~105X faster than previous GAN-based models.		
 - Our unsupervised word translation model obtains the state of the art on the bilingual lexicon extraction task. It reaches a precision@1 of 47.53%  translating English to Finnish and outperforms supervised methods without a single parallel sign.
 
+## Visualization
+we visualize three translation scenarios by projecting mapped bilingual word embeddings from 300 dimensions to 2D at prediction time. 
+This visualization shows the process of how RS works from an experimental view and fully demonstrates that RS promotes the confidence of more appropriate target translations without considering whether it is a hub. The word embeddings are projected from 300-dim to the 2D plane using PCA. The five vectors in Spanish (black) are the 5 nearest neighbors of the source query, and the values below the red word labels are the distance from the query. Another five vectors in English (red) are the 5 nearest neighbors of the target candidate that is in the best-$k$ list, and the values below the black labels are the distance from the candidate. In addition, the table in the top right corner reports the similarity of the query and the back-translation value is shown with red labels.
+![](https://github.com/djzgroup/RSforWordTranslation/blob/master/visualizaition.jpg)
+
 ## Acknowledgment
 This work was supported in part by the National Natural Science Foundation of China under Grant 61702350 and Grant 61472289 and in part by the Open Project Program of the State Key Laboratory of Digital Manufacturing Equipment and Technology, HUST, under Grant DMETKF2017016.
