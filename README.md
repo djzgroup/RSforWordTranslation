@@ -9,9 +9,10 @@ Compared with a precision@1 of 47.00% from English to Finnish, our model obtains
 - Our model significantly reduces model training time, which only takes a few minutes with a single CPU and is approximately 52X~105X faster than previous GAN-based models.		
 - Our unsupervised word translation model obtains the state of the art on the bilingual lexicon extraction task. It reaches a precision@1 of 47.53%  translating English to Finnish and outperforms supervised methods without a single parallel sign.
 
-** Bilingual Lexicon Induction
+## Bilingual Lexicon Induction
 We report the results of our model on the test sets (English to Italian, German, Finnish, Spanish), compared to previous methods.
 From the results, we notice that the performances of close languages, such as English and Spanish, generally show superior results to the long distance languages. As shown in the last row, our model achieves remarkably outstanding precision in different language pairs. Additionally, our model shows a marked improvement in the test of English to Finnish and outperforms the state of the art in many language datasets.
+
  表格      | 第一列     | 第二列     
  -------- | :-----------:  | :-----------: 
  第一行     | 第一列     | 第二列    
