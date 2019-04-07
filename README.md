@@ -15,35 +15,19 @@ From the results, we notice that the performances of close languages, such as En
 
 Method 	| EN-IT | EN-DE | EN-FI | EN-ES
 -|-|-|-|-
-香蕉 | $1 | 5 |
-苹果 | $1 | 6 |
-草莓 | $1 | 7 |
+Mikolov et al. (2013)\cite{mikolov2013exploiting} (*) | 34.93 | 35.00 | 25.91 | 27.73
+Faruqui et al. (2014)\cite{faruqui2014improving} (*) | 38.40 | 37.13 | 27.60 | 26.80
+Shigeto et al. (2015)\cite{shigeto2015ridge} (*) | 41.53 | 43.07 | 31.04 | 33.73
+Dinu et al. (2014)\cite{dinu2014improving} (*) | 38.53 | 38.93 | 29.14 | 30.40
+Lazaridou et al. (2015)\cite{Lazaridou2015Hubness} (*) | 40.2 | - | - | -
+Xing et al. (2015)\cite{xing2015normalized} (*) | 36.87 | 41.27 | 28.23 | 31.20
+Artetxe et al. (2016)\cite{artetxe2016learning} (*) | 39.27  | 41.87 | 30.62 |  31.40
+Zhang et al. (2016)\cite{zhang2016ten} (*) | 36.73 | 40.80 | 28.16 | 31.07		
+Smith et al. (2017)\cite{smith2017offline} (*) | 44.53 | 43.33 | 29.42 | 35.13
+Artetxe et al. (2018)\cite{artetxe2018generalizing} (*) | 45.27 | 44.13 | 32.94 | 36.53
+Lample et al. (2018)\cite{conneau2017word} | 77.80 | \textbf{74.12} |  43.96 | \textbf{81.73} 
+Our | \textbf{78.00} | 73.53 | \textbf{47.53} | 81.64 
  
-
-		Method 	& EN-IT & EN-DE & EN-FI & EN-ES\\
-		\hline
-		Mikolov et al. (2013)\cite{mikolov2013exploiting} (*) & 34.93 & 35.00 & 25.91 & 27.73\\
-		Faruqui et al. (2014)\cite{faruqui2014improving} (*) & 38.40 & 37.13 & 27.60 & 26.80\\
-		Shigeto et al. (2015)\cite{shigeto2015ridge} (*) & 41.53 & 43.07 & 31.04 & 33.73\\
-		Dinu et al. (2014)\cite{dinu2014improving} (*) & 38.53 & 38.93 & 29.14 & 30.40\\
-		Lazaridou et al. (2015)\cite{Lazaridou2015Hubness} (*) & 40.2 & - & - & -\\
-		Xing et al. (2015)\cite{xing2015normalized} (*) & 36.87 & 41.27 & 28.23 & 31.20\\
-		Artetxe et al. (2016)\cite{artetxe2016learning} (*) & 39.27  & 41.87 & 30.62 &  31.40\\
-		Zhang et al. (2016)\cite{zhang2016ten} (*) & 36.73 & 40.80 & 28.16 & 31.07\\			
-		Smith et al. (2017)\cite{smith2017offline} (*) & 44.53& 43.33 & 29.42 & 35.13\\
-		Artetxe et al. (2018)\cite{artetxe2018generalizing} (*) & 45.27 & 44.13 & 32.94 & 36.53\\ 
-		Lample et al. (2018)\cite{conneau2017word} & 77.80 & \textbf{74.12} &  43.96 & \textbf{81.73} \\
-		\hline
-		Our & \textbf{78.00} & 73.53 & \textbf{47.53} & 81.64 \\
- 
- 
- 
- 
- 
- 
- 
- 
-
 ## Visualization
 we visualize three translation scenarios by projecting mapped bilingual word embeddings from 300 dimensions to 2D at prediction time. 
 This visualization shows the process of how RS works from an experimental view and fully demonstrates that RS promotes the confidence of more appropriate target translations without considering whether it is a hub. The word embeddings are projected from 300-dim to the 2D plane using PCA. The five vectors in Spanish (black) are the 5 nearest neighbors of the source query, and the values below the red word labels are the distance from the query. Another five vectors in English (red) are the 5 nearest neighbors of the target candidate that is in the best-k list, and the values below the black labels are the distance from the candidate. In addition, the table in the top right corner reports the similarity of the query and the back-translation value is shown with red labels.
