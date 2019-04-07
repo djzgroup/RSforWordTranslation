@@ -25,8 +25,8 @@ Artetxe et al. (2016)\cite{artetxe2016learning} (*) | 39.27  | 41.87 | 30.62 |  
 Zhang et al. (2016)\cite{zhang2016ten} (*) | 36.73 | 40.80 | 28.16 | 31.07		
 Smith et al. (2017)\cite{smith2017offline} (*) | 44.53 | 43.33 | 29.42 | 35.13
 Artetxe et al. (2018)\cite{artetxe2018generalizing} (*) | 45.27 | 44.13 | 32.94 | 36.53
-Lample et al. (2018)\cite{conneau2017word} | 77.80 | \textbf{74.12} |  43.96 | \textbf{81.73} 
-Our | \textbf{78.00} | 73.53 | \textbf{47.53} | 81.64 
+Lample et al. (2018)\cite{conneau2017word} | 77.80 | 74.12 |  43.96 | 81.73 
+Our | 78.00 | 73.53 | 47.53 | 81.64 
  
 ## Visualization
 we visualize three translation scenarios by projecting mapped bilingual word embeddings from 300 dimensions to 2D at prediction time. 
