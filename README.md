@@ -11,7 +11,7 @@ Compared with a precision@1 of 47.00% from English to Finnish, our model obtains
 
 ## Bilingual Lexicon Induction
 We report the results of our model on the test sets (English to Italian, German, Finnish, Spanish), compared to previous methods.
-From the results, we notice that the performances of close languages, such as English and Spanish, generally show superior results to the long distance languages. As shown in the last row, our model achieves remarkably outstanding precision in different language pairs. Additionally, our model shows a marked improvement in the test of English to Finnish and outperforms the state of the art in many language datasets.
+From the results, we notice that the performances of close languages, such as English and Spanish, generally show superior results to the long distance languages. As shown in the last row, our model achieves remarkably outstanding precision in different language pairs. Additionally, our model shows a marked improvement in the test of English to Finnish and outperforms the state of the art in many language datasets. (Word translation precision@k for k=1. Language codes: `EN' is English, `IT' is Italian, `ES' is Spanish, `de' is German, `fi' is Finnish.)
 
 Method 	| EN-IT | EN-DE | EN-FI | EN-ES
 -|-|-|-|-
