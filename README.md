@@ -16,6 +16,31 @@ From the results, we notice that the performances of close languages, such as En
  表格      | 第一列     | 第二列     
  -------- | :-----------:  | :-----------: 
  第一行     | 第一列     | 第二列    
+ 
+
+		Method 	& EN-IT & EN-DE & EN-FI & EN-ES\\
+		\hline
+		Mikolov et al. (2013)\cite{mikolov2013exploiting} (*) & 34.93 & 35.00 & 25.91 & 27.73\\
+		Faruqui et al. (2014)\cite{faruqui2014improving} (*) & 38.40 & 37.13 & 27.60 & 26.80\\
+		Shigeto et al. (2015)\cite{shigeto2015ridge} (*) & 41.53 & 43.07 & 31.04 & 33.73\\
+		Dinu et al. (2014)\cite{dinu2014improving} (*) & 38.53 & 38.93 & 29.14 & 30.40\\
+		Lazaridou et al. (2015)\cite{Lazaridou2015Hubness} (*) & 40.2 & - & - & -\\
+		Xing et al. (2015)\cite{xing2015normalized} (*) & 36.87 & 41.27 & 28.23 & 31.20\\
+		Artetxe et al. (2016)\cite{artetxe2016learning} (*) & 39.27  & 41.87 & 30.62 &  31.40\\
+		Zhang et al. (2016)\cite{zhang2016ten} (*) & 36.73 & 40.80 & 28.16 & 31.07\\			
+		Smith et al. (2017)\cite{smith2017offline} (*) & 44.53& 43.33 & 29.42 & 35.13\\
+		Artetxe et al. (2018)\cite{artetxe2018generalizing} (*) & 45.27 & 44.13 & 32.94 & 36.53\\ 
+		Lample et al. (2018)\cite{conneau2017word} & 77.80 & \textbf{74.12} &  43.96 & \textbf{81.73} \\
+		\hline
+		Our & \textbf{78.00} & 73.53 & \textbf{47.53} & 81.64 \\
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 
 ## Visualization
 we visualize three translation scenarios by projecting mapped bilingual word embeddings from 300 dimensions to 2D at prediction time. 
